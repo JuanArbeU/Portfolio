@@ -1,10 +1,11 @@
-import styles from "./App.module.css";
-import { Landing } from "./Pages/Landing";
+import Navbar from "./Components/Navbar/Navbar";
+import Intro from "./Components/Intro/intro";
 
 function App() {
   return (
-    <div className={ styles.App }>
-      <Landing />
+    <div className="App">
+      <Navbar />
+      <Intro/>
     </div>
   );
 }
